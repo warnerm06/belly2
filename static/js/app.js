@@ -90,8 +90,8 @@ var data1 = [trace1];
 var layout = {
   title: 'Bubble Plot',
   showlegend: false,
-  // height: 600,
-  // width: 600
+  height: auto,
+  width: 100%
 };
 
 Plotly.newPlot('bubble', data1, layout);
